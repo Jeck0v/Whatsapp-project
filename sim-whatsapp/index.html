@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Al Capone" />
+    <title>Sim | whatsapp</title>
+    <link rel="stylesheet" href="./assets/css/app.css" />
+  </head>
+  <body>
+    <div class="container" id="chat">
+      <!-- chat de gauche -->
+      <section class="left">
+        <h4>User A</h4>
+        <p>Conversation...</p>
+        <div class="chat-content convA"></div>
+        <p>Nouveau message:</p>
+        <input type="text" id="newMessageA" placeholder="Message" />
+        <input type="button" class="btnUserA" value="envoyer" />
+      </section>
+
+      <!-- chat de droite -->
+      <section class="right">
+        <h4>User B</h4>
+        <p>Conversation...</p>
+        <div class="chat-content convB"></div>
+        <p>Nouveau message:</p>
+        <input type="text" id="newMessageB" placeholder="Message" />
+        <input type="button" class="btnUserB" value="envoyer" />
+      </section>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
